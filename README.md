@@ -65,7 +65,7 @@ school_results_system/
 
 ## Setup
 
-### 1. Create PostgreSQL Database
+### 1. Create mySQL Database
 
 ```sql
 CREATE DATABASE "SCHOOL_RESULTS";
@@ -74,11 +74,11 @@ CREATE DATABASE "SCHOOL_RESULTS";
 ### 2. Configure `.env`
 
 ```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=SCHOOL_RESULTS
-DB_USER=postgres
-DB_PASSWORD=your_password_here
+DB_HOST=localhost        # or your MySQL server host
+DB_PORT=3306             # MySQL default port
+DB_NAME=SCHOOL_RESULTS   # your database name
+DB_USER=root             # MySQL username
+DB_PASSWORD=your_password_here  # MySQL password
 ```
 
 ### 3. Install Dependencies
