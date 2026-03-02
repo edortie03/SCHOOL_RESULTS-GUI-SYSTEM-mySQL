@@ -1,5 +1,5 @@
 """
-services/report_service.py - PDF and CSV report generation
+services/report_service.py - PDF and CSV report generation for student results and class performance
 """
 import logging
 import os
